@@ -75,8 +75,9 @@ body {
   filter: brightness(0.6);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   .card {
+    width: 375px;
     height: auto;
     flex-direction: column;
   }
